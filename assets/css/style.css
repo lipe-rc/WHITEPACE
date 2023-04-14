@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Montserrat', arial, helvetica, sans-serif;
+    text-decoration: none;
+}
+
+@keyframes button-animation{
+    0%{box-shadow: 0px 0px 6px #fff;}
+    100%{box-shadow: 0px 0px 15px #fff;}
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.info-logo{
+    color: #fff;
+    font-size: 25px;
+}
+
+
+header {
+    background-image: url('../images/background-home.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.header-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 20px;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+.menu-mobile img{
+    width: 50px;
+    height: 50px;
+}
+
+.menu nav ul{
+    display: flex;
+}
+
+.menu nav ul li{
+    padding: 20px;
+}
+
+.menu nav ul li a{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.menu nav ul button{
+    padding: 10px 20px;
+    background: rgb(72, 72, 255);
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.menu nav ul button a{
+    color: #fff;
+}
+
+.area-info-header{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+
+.area-info-header h1{
+    font-size: 80px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.area-info-header p{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.area-info-header button{
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 0;
+    background: rgb(72, 72, 255);
+    color: #fff;
+    animation: button-animation 2s infinite alternate;
+}
+
+.area-info-header button a{
+    color: #fff;
+}
+
+.info-ultm{
+    display: flex;
+    padding: 30px 0px;
+}
+
+.info-apresent{
+    display: flex;
+    padding: 30px 0px;
+}
+
+
+
+.info{
+    flex: 1;
+    padding-top: 100px;
+}
+
+.img-apresent{
+    flex: 1;
+}
+
+.title-info{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.text-info{
+    margin-bottom: 5px;
+}
+
+.info button{
+    padding: 10px 15px;
+    background: rgb(72, 72, 255);
+    border: 0;
+    border-radius: 10px;
+}
+
+
+.info button a{
+    color: #fff;
+}
+
+
+.info2{
+    order: 1;
+}
+
+.info-section-depoimento{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+
+.depoimento{
+    background-color: rgb(166, 166, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.depoimento:hover{
+    background-color: rgb(130, 130, 253);
+}
+
+.depoimento img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.nome-depoimento{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.area-depoimento{
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.nome-area-depoimento{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.tex-area-depoimento{
+    margin-bottom: 30px;
+}
+
+
+.clientes{
+    display: flex;
+}
+
+.cliente{
+    flex: 1;
+    
+}
+
+
+.section-nossos-clentes{
+    padding: 30px 0px;
+}
+
+
+.nome-area-clientes{
+    text-align: center;
+}
+
+.tex-area-clientes{
+    text-align: center;
+}
+
+
+.nome-area-clientes{
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+.tex-area-clientes{
+    margin-bottom: 10px;
+}
+
+
+footer{
+    background-color: rgb(0, 129, 161);
+    padding: 30px;
+}
+
+
+.redes{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+.redes-direitos{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+.insta{
+    margin-right: 10px;
+    background-color: #999;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.face{
+    background-color: #999;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.insta img,
+.face img{
+    width: 30px;
+    height: 30px;
+}
+
